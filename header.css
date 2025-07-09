@@ -1,0 +1,242 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 55px;
+    position: fixed;
+    right: 0px;
+    left:0px;
+    top:0px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width:0.571429px;
+    z-index: 100;
+}
+
+.app-button,.create-button,.not-button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.app-button .tooltip,
+.create-button .tooltip,
+.not-button  .tooltip{
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.9);
+    color:white;
+    padding-left:9px ;
+    padding-right: 9px;
+    padding-top:9px ;
+    padding-bottom:9px ;
+    border-radius: 3px;
+    bottom: -47px;
+    right: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    white-space:nowrap;
+}
+
+.app-button:hover .tooltip,
+.create-button:hover .tooltip,
+.not-button:hover  .tooltip{
+    opacity: 1;
+}
+
+
+.right-section{
+    
+    width:180px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+    
+}
+
+.create-button{
+    height: 40px;
+    width: 66px;
+    border: none;
+    background-color: white;
+    
+    
+
+}
+
+.app-button{
+    height: 40px;
+    width: 66px;
+    border: none;
+    background-color: white;
+    
+    
+}
+
+.not-button{
+    height: 40px;
+    width: 66px;
+    border: none;
+    background-color: white;
+    position: relative;
+    
+}
+
+.not-number{
+    position: absolute;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    top:6px ;
+    right:9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 30px;
+    font-size: 11px;
+}
+
+
+
+.my{
+    height: 34px;
+    
+}
+
+.upload-icon{
+    width:24px;
+    margin-top:4px;
+}
+
+.app-icon{
+    width:24px;
+    margin-top:4px;
+}
+
+.not-icon{
+    width:24px;
+    margin-top:4px;
+}
+
+.left-section{
+    
+    
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: 24px;
+    margin-left:24px ;
+    margin-right:24px ;
+}
+
+.logo{
+    height: 20px;
+}
+
+.middle-section{
+    
+    display: flex;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    align-items: center;
+}
+
+.search{
+    flex:1;
+    height: 36px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-width:0.571429px;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size:16px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+    
+
+}
+
+.searchb,
+.searchv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchb{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(204, 204, 204);
+    border-width:0.571429px;
+    border-style: solid;
+    margin-left: -1px;
+    
+}
+
+.searchb .tooltip,
+.searchv .tooltip
+{
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.9);
+    color:white;
+    padding-left:9px ;
+    padding-right: 9px;
+    padding-top:9px ;
+    padding-bottom:9px ;
+    border-radius: 3px;
+    bottom: -47px;
+    right: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    white-space:nowrap;
+
+}
+
+.searchb:hover .tooltip,
+.searchv:hover .tooltip{
+    opacity: 1;
+}
+
+
+
+
+
+.searchv{
+    
+    height: 40px;
+    width: 40px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-radius: 100px;
+    margin-left: 7px;
+    
+}
+
+
+
+.search-icon{
+    width: 25px;
+    
+}
+
+.voice-icon{
+    width:24px;
+    
+}
+
+
